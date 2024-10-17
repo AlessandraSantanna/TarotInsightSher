@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline:none;
+    border:none;
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+    transition: 0.2s linear;
+}
+
+body{
+    background-color:white;
+    margin: 0 auto;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*menu*/
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 99;
+    border-bottom:#3b035c;
+    
+}
+
+
+.header section{
+    display:flex;
+    justify-content:space-around;
+    padding-top:1rem;
+    padding-bottom:1rem;
+    background-color: white;
+  
+
+}
+
+.navbar a {
+    margin:0 1rem;
+    font-size: 1rem;
+    color:#3b035c;
+    align-items:center;
+    justify-content:center;
+    font-weight: bold;
+
+}
+
+.navbar a:hover{
+        
+    color: #3b035c;
+    border-bottom:  0.2rem solid  #3b035c;
+    padding-bottom: 0.5rem;
+    font-size:1rem;
+}
+
+
+    a {
+   
+    color: aliceblue;
+    align-items: center;
+    text-decoration: none;
+}
+    
+   
+    .logo{
+        width: 80px;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+
+    .tarot {
+        width: 100%; /* Ajusta a largura para 100% do contêiner pai */
+        height: auto; /* Mantém a proporção da imagem */
+        max-height: 500px; /* Define a altura máxima */
+        object-fit: cover; /* Cobre todo o espaço sem distorcer a imagem */
+    }
+        
+
+    .box-1 {      
+        width: 900px;
+        height: 00px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px;
+        align-items: center;
+        position: absolute;
+        top: 300px;
+        left:300px;
+        z-index:1;  
+    } 
+
+    .informacoes{
+    display:none;
+     text-align: center;
+     background-color:#fff;
+ 
+    
+    }
+
+
+    .informacoes .cartoes{
+        margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color:#fff;
+            
+    }
+   
+  
+        
+       
+    
+
+
+    .informacoes .title_informacoes {
+        font-size: 20px;
+        color: #3b035c;
+        text-align: center;
+        margin:10px;
+        
+        
+    
+    }
+
+
+    .informacoes .title_informacoes h3 {
+        font-size: 12px;
+        color: #3b035c;
+        text-align: center;
+        margin:10px;
+        
+        
+    
+    }
+   
+
+
+   
+  /*menu*/  
+.apresentacao{
+    width: auto;
+    padding: 10px;
+    background-color:#3b035c;
+    display: flex;
+    flex-direction: column;  
+    text-transform: uppercase;
+}
+    
+.img-top{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+.txt-topo-site {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;  
+}
+
+
+/* Sobre*/
+.about .row{
+    padding:15px;
+    display: flex;
+    align-items: center;
+    background-color:#ffff;
+    flex-direction: row;   
+   
+}
+
+.conteiner-image{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about .row .content{
+    padding: 2rem;   
+}
+
+.about .row .content h3 {
+    font-size:30px;
+    color:#3b035c;
+}
+
+.about .row .content p{
+    font-size:20px;
+    color:#3b035c;
+    padding: 10px 0;
+    text-align: justify;
+}
+
+
+
+/* Tipos de consulta*/
+.atuacao{
+    display: flex;
+    background-color:#3b035c;
+    flex-direction: row;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Animação de entrada da esquerda para a direita */
+
+.atuacao .atuacao-box{
+    padding:20px ;
+    margin: 20px;
+    border:0,5px solid #ffffff52;
+    background-color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    justify-items: center;
+}
+
+.atuacao .atuacao-box:hover{
+   transform: scale(1.05);  
+   box-shadow: 0 0 20px #ffffff49 ;
+}
+
+.atuacao .atuacao-box img{
+    width: 150px;
+}
+   
+.atuacao-box h3{
+    color: #3b035c; 
+}
+
+.atuacao-box p{
+    color: #3b035c;
+}
+  
+
+/*Seção depoimentos*/
+   .review  {
+    background-color:#3b035c;
+    padding-bottom: 10px;
+    display: flex;  
+}
+
+.title{
+    font-size: 1.5rem;
+    color:#fff;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+.box-container {
+    display:flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+.box-container .box:hover {
+    background-color:#3b035c;
+}
+
+ .box-container .box img{
+height: 10rem;
+}
+
+ .box-container .box h3{
+    color:#fff;
+    font-size: 20px;  
+    margin-top: 10px;
+    font-size:15px;
+}
+
+.box{
+    border:3px solid #fff;
+    text-align: center; 
+    border-radius: 15px;
+    cursor: pointer;
+    margin:10px;
+}
+
+.review .box p {
+    font-size:15px;
+    color:#fff;
+   
+    margin: 5px;
+}
+
+.review .box .user{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    border:2px solid #fff;
+    margin:5px;
+}
+
+  
+/*Seção rodapé*/
+   footer{
+    padding: 20px 4%;
+    background-color: #fff;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+footer .line-footer{
+    padding: 20px 0;
+    color:#3b035c;
+   
+}
+.borda{
+    border-top:2px solid #3b035c;
+}
+
+footer .line-footer p i{
+    color:#3b035c;
+    font-size: 15px;
+    align-items: center;
+
+}
+
+footer .line-footer p a{
+    color:#3b035c;
+}
+
+
+
+.btn-social img{
+    justify-items: center;
+    width: 25px;
+    color:#3b035c;
+}
+ 
+
+
+.btn-social p{
+    text-align: center;
+   margin-bottom:20px;
+   color:#3b035c;
+}
+
+.btn-social a{
+    text-align: center;
+   margin-bottom:20px;
+   color:#3b035c;
+}
+
+
+
+.line-footer .borda{
+    text-align: center;
+   margin-bottom:20px;
+   color:#3b035c;
+}
+
+.logo1{
+    height: 6rem;
+    width: 6rem;
+    
+    margin:5px;  
+}
+
+.whatsapp {
+    width: 70px;
+    position: fixed;
+    right: 70px;
+    bottom: 10px;
+
+}
+
+
+/* ------------------------------------- */
+
+/* SERVIÇOS */
+
+
+.servicos {
+    display: flex;
+    justify-content: center;
+    background-color: #ffff;
+    padding: 25px;
+}
+
+.box-list-servicos {
+    width: 90%;
+}
+
+
+.box-list-servicos h4 {
+    font-size: 1.3vw;
+    color: #18d100;
+}
+
+.box-list-servicos h3 {
+    font-size: 1.7vw;
+}
+
+.box-list-servicos h4,
+.box-list-servicos h3 {
+    font-weight: 600;
+    
+}
+
+.box-list-title {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.list-servicos {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+   
+}
+
+.card-list {
+    cursor: pointer;
+    background-color: white;
+    width: 100vw;
+    height: 420px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.3s ease-in-out;
+    padding: 10px;
+   
+}
+
+.card-list:hover {
+    transform: scale(1.03);
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 5px #3b035c;
+}
+
+.card-list img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.card-list h4 {
+    font-weight: bold;
+    font-size: 18px;
+    width: 80%;
+    color: #3b035c;
+    padding-left: 15px;
+}
+
+
+.card-list p {
+    font-weight: bold;
+    font-size:13px;
+    width: 100%;
+    color: #3b035c; 
+  
+}
+
+.rodape {
+    background: rgba(243, 203, 241, 0.205);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-align: center;
+    color:#3b035c;
+    font-size: 0.7em;
+    padding: 10px 0;
+    width: 100%;
+   
+    bottom: 0;
+    left: 0;
+    animation: footerSlideUp 2s ease-in-out;
+   
+}
+
+
+
+   @media screen and (max-width:450px){
+ 
+    .navbar a {
+        margin:0 10px;
+        font-size: 10px;
+        align-items:center;
+        justify-content:center;
+
+    }     
+    .navbar a:hover{
+        
+        color: #3b035c;
+        border-bottom:  0.2rem solid  #3b035c;
+        padding-bottom: 0.5rem;
+        font-size:12px;
+    }
+    
+
+    .atuacao{
+        display: flex;
+        flex-direction: column;
+    }
+    .informacoes{
+       display: inline;
+     
+        
+        }
+
+    .review  .title .box-container{
+        
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+  
+
+    .about .row{
+        padding:15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about .row .content h3 {
+        font-size:25px;
+    
+        }
+    .about .row .content p {
+            font-size:15px;   
+    }
+
+
+    
+    .conteiner-image{
+        width: 100px;
+    }
+
+
+    .logo{
+        width: 50px;
+    }
+
+
+    .tarot{
+        width:100% ;
+        height:300px;
+    }
+
+
+
+
+
+
+    .txt-topo-site h2 {
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+
+ .atuacao-box{
+        padding: 12px;
+        margin: 200px;
+        flex-direction: column;
+        border:0,3px solid #ffffff52;
+        background-color: #fff;
+        border-radius: 5px;
+        transition: 0.1s;
+        text-align: center;
+        justify-items: center;
+        width:  auto;
+        font-size: 15px;
+     }  
+
+
+     .whatsapp {
+        width: 40px;
+        position: fixed;
+        right: 40px;
+        bottom: 10px;
+    
+    }
+    btn-social button{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border:none;
+        background-color: #e916b4;
+        font-size: 15px;
+        cursor:pointer;
+        margin:0 5px;
+        transition:.2s ;
+    
+    }
+    .review  .title .box-container{
+        
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+  
+    .servicos .box-list-servicos .list-servicos {
+        
+       margin:auto ;
+        display: flex;
+        flex-direction: column;
+        
+    }
+ 
+    .card-list {
+        width: auto;
+        height: 380px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: 0.3s ease-in-out;
+        justify-content: center;
+        align-items: center;
+     
+    
+    }
+} 
+
+
+
+@media screen and (min-width:768){
+ 
+    .navbar a {
+        margin:0 10px;
+        font-size: 10px;
+        align-items:center;
+        justify-content:center;
+
+    }
+    
+.navbar a:hover{
+        
+    color: #3b035c;
+    border-bottom:  0.4rem solid  #3b035c;
+    padding-bottom: 0.5rem;
+    font-size:12px;
+}
+
+    .atuacao{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+    .review  .title .box-container{
+       padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        display: flex;
+    
+    }
+    .box-container{
+        flex-direction: row;
+    }
+  
+
+    .about .row{
+        padding:15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .about .row .content h3 {
+        font-size:25px;
+    
+        }
+    .about .row .content p {
+            font-size:15px;   
+    }
+
+
+    
+    .conteiner-image{
+        width: 100px;
+    }
+
+
+    .logo{
+        width: 50px;
+    }
+
+
+    .tarot{
+        width:100% ;
+        height:300px;
+    }
+
+
+
+
+
+
+    .txt-topo-site h2 {
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+    }
+
+ .atuacao-box{
+        padding: 12px;
+        margin: 200px;
+         flex-direction: column;
+        border:0,3px solid #ffffff52;
+        background-color: #fff;
+        border-radius: 5px;
+        transition: 0.1s;
+        text-align: center;
+        justify-items: center;
+        width:  auto;
+        font-size: 15px;
+     }  
+
+
+     .whatsapp {
+        width: 40px;
+        position: fixed;
+        right: 40px;
+        bottom: 10px;
+    
+    }
+    btn-social button{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border:none;
+        background-color: #e916b4;
+        font-size: 15px;
+        cursor:pointer;
+        margin:0 5px;
+        transition:.2s ;
+    
+    }
+    
+    .card img {
+        align-items: center;
+        height: 100px;
+        width: 60px;
+        display: block; /* Para remover espaços em volta da imagem */
+    }
+
+    .card {
+        height: 10px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+
+    .servicos .card-list  {
+        
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+  
+
+} 
+
+

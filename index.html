@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles2.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./imagens/cartas.png">
+    <!--boostrap icones-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+     <!--boostrap icones-->
+    <title>Tarot Insight Sher</title>
+</head>
+
+<body>
+ 
+    <header class="header">
+        
+        <section>
+            <img class="logo" src="imagens/tarotroxo.png">
+                 <nav class="navbar">
+                    <a href="#tarotgratis"><img class="gif-caixa" src="" alt="">Tarot  </a>
+                    <a href="#servicos"><img class="gif-caixa" src="" alt="">Serviços</a>
+                    <a href="#sobre"><img class="gif-caixa" src="" alt="">Sobre  </a>
+                    <a href="#depoimentos"><img class="gif-caixa" src="" alt="">Depoimentos </a>
+            </nav>
+        </section>
+    </header>
+    
+        <img class= "tarot" src="./imagens/tarotimg.jpg" >            
+        
+       
+       
+        <a name="tarotgratis"></a>
+        <section class="informacoes"> 
+            <div class="title_informacoes">
+                <h2>  TAROT GRÁTIS</h2>
+                <h3>Clique na carta e veja a mensagem</h3>
+             </div>
+            <div class="cartoes">
+        
+                <div class="card" onclick="showMessage()">
+                    <div class="card-front"><img src="./imagens/logoroxa.png" alt="Front Card 1"></div> 
+                    <div class="card-back">
+                        <img src="./imagens/carta1.jpg" alt="Back Card 1"></div>
+                </div>
+            
+                <div class="card" onclick="showMessage2()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 2">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/julgamento.jpg" alt="Back Card 2">
+                    </div>
+                </div>
+            
+                <div class="card" onclick="showMessage3()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 3">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/lua.jpg" alt="Back Card 3">
+                    </div>
+                </div>
+                <div class="card"onclick="showMessage4()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 1">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/mundo.jpg" alt="Back Card 1">
+                    </div>
+                </div>
+                
+                <div class="card" onclick="showMessage5()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 2">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/enamorados.jpg" alt="Back Card 2">
+                    </div>
+                </div>
+                <div class="card" onclick="showMessage6()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 2">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/sol.jpg" alt="Back Card 2">
+                    </div>
+                </div>
+            </div>
+             
+        </section> 
+                <section class="informacoes">
+                  
+                    <div class="cartoes">
+        
+        
+                <div class="card" onclick="showMessage7()">
+                    <div class="card-front"><img src="./imagens/logoroxa.png" alt="Front Card 1"></div> 
+                    <div class="card-back">
+                        <img src="./imagens/mago.jpg" alt="Back Card 1"></div>
+                </div>
+            
+                <div class="card" onclick="showMessage8()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 2">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/forca.jpg" alt="Back Card 2">
+                    </div>
+                </div>
+        
+                <div class="card" onclick="showMessage9()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 3">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/carta3.jpg" alt="Back Card 3">
+                    </div>
+                </div>
+                <div class="card" onclick="showMessage10()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 1">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/carta1.jpg" alt="Back Card 1">
+                    </div>
+                </div>
+                
+                <div class="card" onclick="showMessage11()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 2">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/carta2.jpg" alt="Back Card 2">
+                    </div>
+                </div>
+               
+                <div class="card" onclick="showMessage12()">
+                    <div class="card-front">
+                        <img src="./imagens/logoroxa.png" alt="Front Card 2">
+                    </div>
+                    <div class="card-back">
+                        <img src="./imagens/carta2.jpg" alt="Back Card 2">
+                    </div>
+                </div>
+                
+            </div>   
+        
+        
+            <div id="message"></div>
+        
+        
+        
+        </section>
+        
+        <section class="apresentacao"><a name="servicos"></a>
+          
+            <div class="txt-topo-site">    
+                <h2>Conselhos e Tranquilidade para sua trajetória de vida</h>
+              
+             </div>   
+             <div class="txt-topo-site">    
+                <h2>QUAL CONSULTA VOCÊ QUER REALIZAR AGORA? </h2>
+</div>   
+        </section>
+
+        
+        <section class="atuacao">
+            <div class="atuacao-box">
+                <img src="imagens/mesa.png"  alt="logo inicio" width="300px">
+                <h3>Consulta Geral Online Ao vivo</h3>
+                <p> Ideal para quem quer saber um pouco de tudo. Podemos realizar a leitura das seguintes áreas: <br>
+                    - Vida amorosa<br>
+                    - Questões financeiras <br>
+                    - Vida profissional<br>
+                    - Saúde<br>
+                    - Família<br>
+                    - Espiritualidade <br>
+                    
+                    Escolha 3 áreas para a tiragem e faça 1 pergunta. 
+                    A consulta é feita por chamada de vídeo e tem duração de 30 minutos.
+                   <br> R$ 120,00</p>
+                   <!--<div class="informacoes">
+                    <h1>Eu quero</h1>-->
+               
+            </div>
+            <div class="atuacao-box">
+                <img src="imagens/cartas.png" alt="logo inicio" width="300px">
+                <h3> 3 Cartas</h3>
+                <p>
+                    Passado - Presente - Futuro<br>
+                    Esta tiragem oferece insights sobre seu passado, presente e futuro.<br> Dessa maneira você pode entender melhor o que aconteceu, o que está acontecendo e o que está por vir.  
+                    <br> A consulta é enviada por mensagem de texto e áudio através do Whatsapp. O prazo de resposta é de até 24h.
+                    <br>R$ 80,00<br></p>
+                    <!--<div class="informacoes">
+                    <h1>Eu quero</h1>-->
+                    
+            </div>
+            <div class="atuacao-box">
+                    <img src="imagens/lampada.png" alt="logo inicio" width="300px">
+                    <h3> PERGUNTA ÚNICA </h3>
+                    <p>
+                        Ideal para quem deseja uma resposta objetiva.<br>
+                        Faça uma pergunta e responderemos através de uma mensagem de áudio através do Whatsapp.
+                        <br> R$ 60,00</p>
+                            <!--<div class="informacoes">
+                    <h1>Eu quero</h1>-->
+            </div>  
+   
+</section>
+<section class="about" id="about"><a name="sobre"></a>
+    <div class="row">
+        <div >
+            <img  class="conteiner-image" src="./imagens/sher.jpg" alt="sobre-foto">
+        </div>
+        <div class="content">
+            <h3>Sher Louise</h3>
+            <p>Desde muito cedo sempre teve a intuição aguçada.
+            Aprendeu a interpretar as cartas lendo para si mesma, 
+                amigos e parentes. E foi com a melhor ferramenta de indicação,
+                o verdadeiro " boca a boca" espalharam seus serviços até para 
+                fora do país, foi quando teve a ideia de abrir um site
+                e levar o seu dom para a vida profissional.
+                As cartas não mentem e só não revelam o que não pode ser alterado. 
+                As leituras são muito terapêuticas, trazem conforto e 
+                tranquilidade para tomar as melhores decisões e escolher
+                    o caminho certo.</p>
+        </div>
+    </div>
+   
+</section>
+<section class="servicos">
+
+    <div class="box-list-servicos">
+      
+        <ul class="list-servicos">
+
+            <li class="card-list">
+                <img src="./imagens/cartaexicara.jpg" alt="">
+                <h4>Leitura de Tarô</h4>
+                <p> Ofereço leituras personalizadas para guiar você em momentos de dúvida e incertezas da vida.</p>
+               
+            </li>
+            <li class="card-list">
+                <img src="./imagens/velas.jpeg" alt="">
+                <h4>Tarot Personalizado</h4>
+                <p>Cada sessão é única e adaptada às suas necessidades,
+                    proporcionando insights valiosos e pertinentes.</p>
+            </li>
+            <li class="card-list">
+                <img src="./imagens/cartanamao.jpg" alt="">
+                <h4>Consultas Individuais</h4>
+                <p>Realizo consultas individuais, abordando suas questões específicas para promover clareza e entendimento.</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<a name="depoimentos"></a>
+<section class="review" id="review">
+    <div class="title">
+    <h2 class="title"> Depoimentos  Clientes </h2>
+    <div>
+    <div class="box-container">
+        <div class="box">
+            
+            <img src="./imagens/alessandra.jpg" alt="foto-cliente" class="user">
+            <h3> Alessandra</h3>
+            <p> Nas consultas ela sempre se dedica e nos transmite tudo com muita propriedade e confiança. Bem dedicada  em tudo que faz. Ele me descreveu toda como sou, e cheguei a me emocionar. Também me revelou coisas novas que irei viver em breve. Tudo que ela releva é certeiro!</p>
+          
+           
+           
+        </div>
+
+        <div class="box">
+            
+            <img src="./imagens/mariana.jpg" alt="foto-cliente" class="user">
+            <h3> Mariana Acioly</h3>
+            <p> Sher é intuitiva, sensitiva demais. 
+                Desde o início, as previsões sempre foram acertivas. 
+                Os alertas, a situação atual, o que estava por vir...
+                 Até que realmente algo que sempre aparecia no meu jogo
+                  aconteceu. Hoje, vivo um amor que chegou através dela.
+                 </p>
+         
+         
+        </div>     
+
+        <div class="box">
+           
+            <img src="./imagens/thamyres.jpg" alt="foto-cliente" class="user">
+            <h3> Thamyres Barros</h3>
+            <p> As consultas sempre são maravilhosas, ela é atenciosa, 
+                rápida, bom astral e precisa. Consegui ver diversas coisas
+                 sobre mim e me direcionar diversas vezes, 
+                sempre quando estou perdida recorro a ela rsrs</p>
+          
+           
+        </div>
+
+        <div class="box">
+           
+            <img src="./imagens/simone.jpeg" alt="foto-cliente" class="user">
+            <h3> Simone Ferreira</h3>
+            <p> Gente como é surreal as cartas falam com você,  estou super
+                 satisfeita inclusive pela interpretação da Sher. Sim é um dom ,  
+                 claro  com muito estudo e diciplina. Saio muito feliz e indico para vocês.</p>
+          
+           
+        </div>
+
+
+</section>
+
+<footer>
+
+
+
+    <div class="interface">
+        <div class="line-footer">
+                <div class="logo-footer">
+                    <img class="logo1" src="imagens/tarotroxo.png">
+                </div><!--logo-footer-->
+                        <div class="btn-social">
+                            <p>Redes Socias:</p>
+                            <img src="https://img.icons8.com/ios-filled/3b035c/50/instagram-new--v2.png" alt="instagram-new--v2" />
+                            <img  src="https://img.icons8.com/ios-filled/3b035c/50/twitch.png" alt="twitch"/>
+                        </div><!--btn-social-->
+                </div><!--line-footer-->
+         
+         <div class="line-footer borda"> </div>        
+        <div class="btn-social">
+            <p><i class="bi bi-envelope-at">
+            <a href="mailto:shertarot@gmail.com">tarotinsightsher@gmail.com</a></p></i>
+            <p>Horário de atendimento: de segunda a sexta, das 8h às 20h</p>
+      </div>
+            <!--interface---->
+    </div>
+        <a rel="noopener"
+        href="https://api.whatsapp.com/send?phone=+552197668-5155&text=Olá Sher-Tarot Insight, Gostaria de agendar uma consulta?"
+        target="_blank"><img class="whatsapp" src="./imagens/whatsapp.png" alt="logo-whatsapp"></a>
+
+   
+    </footer>
+    
+
+    <footer class="rodape">
+        &copy; Alessandra Santana 2024 - Todos os direitos reservados.
+        <!-- Rodapé da página -->
+    </footer>
+ 
+   
+    <script src="cartas.js"> </script>
+   
+</body>
+</html>
+
+
+

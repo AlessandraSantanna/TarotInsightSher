@@ -1,0 +1,83 @@
+.card-container {
+    display: flex;
+    justify-content: center; /* Centraliza os cards horizontalmente */
+    align-items: center; /* Centraliza os cards verticalmente */
+    flex-wrap: wrap; /* Permite que os cards se movam para a próxima linha se o espaço horizontal for insuficiente */
+    /* gap: 10px; Espaço entre os cards (removido) */
+}
+
+.card {
+    height: 180px;
+    width: 220px;
+    display: inline-flex;
+    position: relative;
+    perspective: 1000px; /* Aumentar a perspectiva para um efeito mais profundo */
+    text-align: center;
+    flex-direction: row;
+    /* margin-bottom: 10px; Removido para eliminar o espaço vertical */
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    align-items: center;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.6s ease; /* Ajuste a duração se desejar */
+}
+
+.card-front {
+    transform: rotateY(0deg);
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card:hover .card-front {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card-back {
+    transform: rotateY(0deg);
+}
+
+.card img {
+    height: 150px;
+    width: 100px;
+    display: block; /* Para remover espaços em volta da imagem */
+}
+
+#message {
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3b035c;
+    margin: 20px;
+   
+    text-align: justify;
+}
+
+@media screen and (max-width:766px){
+    .card img {
+        align-items: center;
+        height: 100px;
+        width: 60px;
+        display: block; /* Para remover espaços em volta da imagem */
+    }
+
+    .card {
+        height: 100px;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .card {
+        height: 100px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+}
