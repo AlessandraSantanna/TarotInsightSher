@@ -232,12 +232,31 @@ body{
    
 .atuacao-box h3{
     color: #3b035c; 
+    margin-bottom: 20px;
 }
 
 .atuacao-box p{
     color: #3b035c;
+    
+    margin-top: 20px;
 }
-  
+.zap-button {
+    padding: 15px 30px;
+    font-size: clamp(0.9rem, 1.5vw, 1.1rem);
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px black;
+    background-color:#9a17e6;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+   
+}
+
+.zap-button:hover {
+    background-color: #3b035c;
+}
 
 /*Seção depoimentos*/
    .review  {
@@ -259,6 +278,7 @@ body{
     display:flex;
     gap: 2rem;
     flex-direction: row;
+    padding: 2%;
 }
 
 .box-container .box:hover {
@@ -278,10 +298,12 @@ height: 10rem;
 
 .box{
     border:3px solid #fff;
-    text-align: center; 
+    align-items: center; 
     border-radius: 15px;
-    cursor: pointer;
-    margin:10px;
+    text-align: center;
+    justify-content: center;
+    
+     
 }
 
 .review .box p {
@@ -345,6 +367,7 @@ footer .line-footer p a{
     text-align: center;
    margin-bottom:20px;
    color:#3b035c;
+   font-weight: bolder;
 }
 
 .btn-social a{
@@ -433,6 +456,7 @@ footer .line-footer p a{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.3s ease-in-out;
     padding: 10px;
+    text-align: center;
    
 }
 
