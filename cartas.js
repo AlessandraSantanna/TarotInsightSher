@@ -33,8 +33,10 @@ function showMessage10() {
     document.getElementById("message").innerHTML = "<span style='color:#9a17e6;'>O Imperador </span> <br> Prepare-se para um momento de autoafirmação, imposição de limites e liderança. Ele pede que você assuma as rédeas da sua vida e não dependa de terceiros para tomar decisões ou resolver problemas. Será importante usar seu espírito de liderança e autoridade. Você também pode precisar delegar melhor suas tarefas e as que cabem aos outros. Cuidado apenas com o autoritarismo.Se você lidera ou tem pessoas sob sua responsabilidade, evite pesar a mão ao exercer seu papel de liderança.";
 }
 function showMessage11() {
-    document.getElementById("message").innerHTML = "<span style='color:#9a17e6;'>A Lua </span> <br> Traz um contato mais intimo com suas emoções e intuição, quanto um momento de incertezas e dúvidas. Com este arcano_ tenha cuidado para não se deixar levar por paranóias e para não se perder dentro das próprias deduções, ok? No amor, você pode acabar nutrindo alguma Ilusão. Seja mais realista. As coisas não estão tão profundas quanto você está vendo.";
+    document.getElementById("message").innerHTML = "<span style='color:#9a17e6;'>A Imperatriz </span> <br> nos convida a um momento de introspecção e autoanálise. Talvez você sinta a necessidade de reavaliar algumas ações ou de dar uma pausa para recuperar o fôlego antes de tomar novas decisões. É possível que, instintivamente, você já saiba de algo importante, mas ainda não conseguiu perceber por causa do barulho externo. No amor, é uma carta que traz distanciamento. Ela pode indicar momentos de solitude, reflexão ou até mesmo uma certa melancolia e carência. Tome cuidado para não criar dramas ou se deixar levar pela hipersensibiliade.";
 }
 function showMessage12() {
     document.getElementById("message").innerHTML = "<span style='color:#9a17e6;'>O mundo  </span> <br> Nos sentiremos alcançando um ciclo completo em nossas vidas, celebrando conquistas e nos preparando para novos começos. Uma etapa se fecha para outra se abrir - e isso soará perfeitamente natural para você. No amor, é favorável para encontros românticos.  No lado profissional, projetos estão sendo concluídos e novos convites podem ser esperados. Abra os olhos para oportunidades além da sua bolha, ok?";
 }
+
+
